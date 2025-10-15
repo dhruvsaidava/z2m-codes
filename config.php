@@ -2,7 +2,12 @@
 // Site Configuration
 define('SITE_NAME', 'Z2M Codes');
 define('SITE_DESCRIPTION', 'Your Arduino & Basic Programming Code Repository');
-define('BASE_URL', 'http://localhost/z2m-codes');
+// Auto-detect base URL for both local and online use
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+$host = $_SERVER['HTTP_HOST'];
+$path = dirname($_SERVER['SCRIPT_NAME']);
+$path = ($path === '/' || $path === '\\') ? '' : $path;
+define('BASE_URL', $protocol . '://' . $host . $path);
 
 // Code Categories
 $categories = [
@@ -74,23 +79,22 @@ function createSlug($text) {
 
 // Function to generate clean code URL
 function getCodeUrl($code) {
-    $slug = createSlug($code['title']);
-    return BASE_URL . '/code/' . $code['id'] . '/' . $slug;
+    return BASE_URL . '/view-code.php?id=' . $code['id'];
 }
 
 // Function to generate category URL
 function getCategoryUrl($categoryKey) {
-    return BASE_URL . '/category/' . $categoryKey;
+    return BASE_URL . '/codes.php?category=' . $categoryKey;
 }
 
 // Function to generate codes page URL
 function getCodesUrl() {
-    return BASE_URL . '/codes';
+    return BASE_URL . '/codes.php';
 }
 
 // Function to generate home URL
 function getHomeUrl() {
-    return BASE_URL . '/';
+    return BASE_URL . '/index.php';
 }
 
 // Function to filter codes
