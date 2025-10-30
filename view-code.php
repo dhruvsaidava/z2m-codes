@@ -93,12 +93,16 @@ $difficulty_color = $difficulty_levels[$code['difficulty']]['color'];
                         Circuit Diagram
                     </h3>
                 </div>
-                <div class="p-6 bg-gray-50">
-                    <img src="<?php echo $code['image']; ?>" 
-                         alt="<?php echo $code['title']; ?> - Circuit Diagram" 
-                         class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition cursor-pointer"
-                         onclick="this.classList.toggle('max-w-full'); this.classList.toggle('max-w-4xl');">
-                    <p class="text-sm text-gray-500 mt-3 text-center italic">Click image to toggle size</p>
+                <div class="p-6 bg-gradient-to-br from-gray-50 to-gray-100">
+                    <div class="max-w-4xl mx-auto">
+                        <div class="bg-white rounded-lg p-4 shadow-inner">
+                            <img src="<?php echo $code['image']; ?>" 
+                                 alt="<?php echo $code['title']; ?> - Circuit Diagram" 
+                                 class="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 object-contain mx-auto block"
+                                 loading="lazy"
+                                 style="max-height: 600px; max-width: 100%; object-fit: contain; image-orientation: from-image;">
+                        </div>
+                    </div>
                 </div>
             </div>
             <?php endif; ?>

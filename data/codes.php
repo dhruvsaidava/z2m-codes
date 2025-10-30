@@ -37,7 +37,8 @@ void loop() {
   delay(1000);                  // Wait for 1 second
 }',
         'author' => 'Arduino Team',
-        'date' => '2024-01-15'
+        'date' => '2024-01-15',
+        'image' => '',
     ],
     [
         'id' => 2,
@@ -78,7 +79,8 @@ void loop() {
   delay(2000);
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-01-20'
+        'date' => '2024-01-20',
+        'image' => '',
     ],
     [
         'id' => 3,
@@ -137,7 +139,8 @@ void loop() {
   delay(500);
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-02-01'
+        'date' => '2024-02-01',
+        'image' => 'assets/images/ultrasonic sensor.png',
     ],
     [
         'id' => 4,
@@ -201,7 +204,8 @@ void loop() {
   Serial.println(\" °F\");
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-02-10'
+        'date' => '2024-02-10',
+        'image' => 'assets/images/humidity with resistor.png',
     ],
     [
         'id' => 5,
@@ -256,7 +260,8 @@ void loop() {
   delay(500);
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-02-15'
+        'date' => '2024-02-15',
+        'image' => 'assets/images/servo motor.png',
     ],
     [
         'id' => 6,
@@ -330,7 +335,8 @@ void setColor(int red, int green, int blue) {
   analogWrite(bluePin, blue);
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-02-20'
+        'date' => '2024-02-20',
+        'image' => '',
     ],
     [
         'id' => 7,
@@ -398,7 +404,8 @@ void loop() {
   lastButtonState = reading;
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-03-01'
+        'date' => '2024-03-01',
+        'image' => '',
     ],
     [
         'id' => 8,
@@ -489,7 +496,8 @@ void handleLEDOff() {
   server.send(303);
 }',
         'author' => 'Z2M Codes',
-        'date' => '2024-03-15'
+        'date' => '2024-03-15',
+        'image' => '',
     ],
     [
         'id' => 9,
@@ -556,7 +564,8 @@ void loop() {
   delay(500);
 }',
         'author' => 'Zero2Maker',
-        'date' => '2024-10-15'
+        'date' => '2024-10-15',
+        'image' => 'assets/images/ultrasonic sensor.png',
     ],
     [
         'id' => 10,
@@ -642,7 +651,8 @@ int ReadAxis(int axisPin) {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Accelerometer_Readings.png',
     ],
     [
         'id' => 11,
@@ -688,7 +698,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/analog temp module cirucuit.png',
     ],
     [
         'id' => 12,
@@ -745,7 +756,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Bluetooth_Module_Control.png',
     ],
     [
         'id' => 13,
@@ -817,7 +829,8 @@ byte Read_Keypad(void) {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Capacitive_Keypad.png',
     ],
     [
         'id' => 14,
@@ -900,7 +913,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/color sensor.png',
     ],
     [
         'id' => 15,
@@ -956,7 +970,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/digital temp module.png',
     ],
     [
         'id' => 16,
@@ -1020,7 +1035,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/flex sensor.png',
     ],
     [
         'id' => 17,
@@ -1084,7 +1100,8 @@ void loop(void) {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Force_Sensitive_Resistor.png',
     ],
     [
         'id' => 18,
@@ -1134,7 +1151,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/GPS_Module_Interface.png',
     ],
     [
         'id' => 19,
@@ -1197,7 +1215,8 @@ void updateSerial() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/GSM_GPRS_AT_Commands.png',
     ],
     [
         'id' => 20,
@@ -1255,7 +1274,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/gas sensor.png',
     ],
     [
         'id' => 21,
@@ -1315,7 +1335,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Heart_Pulse_Rate_Sensor.png',
     ],
     [
         'id' => 22,
@@ -1383,7 +1404,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/humidity without resistor.png',
     ],
     [
         'id' => 23,
@@ -1434,7 +1456,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/IR_Remote_Receiver.png',
     ],
     [
         'id' => 24,
@@ -1485,7 +1508,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/ir sensor.png',
     ],
     [
         'id' => 25,
@@ -1538,7 +1562,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Liquid Crystal Display.png',
     ],
     [
         'id' => 26,
@@ -1581,7 +1606,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/ldr module circuit.png',
     ],
     [
         'id' => 27,
@@ -1661,7 +1687,8 @@ void printByte(byte character[8]) {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/LED_Matrix.png',
     ],
     [
         'id' => 28,
@@ -1713,7 +1740,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Laser_Diode.png',
     ],
     [
         'id' => 29,
@@ -1777,7 +1805,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Membrane_Keypad.png',
     ],
     [
         'id' => 30,
@@ -1840,7 +1869,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Metal_Touch_Sensor.png',
     ],
     [
         'id' => 31,
@@ -1905,7 +1935,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Momentary_Switch_LED_Toggle.png',
     ],
     [
         'id' => 32,
@@ -1963,7 +1994,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Motor_Driver_Control.png',
     ],
     [
         'id' => 33,
@@ -2027,7 +2059,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/NeoPixel_LED_Strip.png',
     ],
     [
         'id' => 34,
@@ -2112,7 +2145,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/NodeMCU_LDR_ThingSpeak.png',
     ],
     [
         'id' => 35,
@@ -2163,7 +2197,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/PIR_Sensor.png',
     ],
     [
         'id' => 36,
@@ -2201,7 +2236,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Passive_Buzzer.png',
     ],
     [
         'id' => 37,
@@ -2253,7 +2289,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Piezoelectric_Sensor.png',
     ],
     [
         'id' => 38,
@@ -2303,7 +2340,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Potentiometer.png',
     ],
     [
         'id' => 39,
@@ -2391,7 +2429,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/RFID.png',
     ],
     [
         'id' => 40,
@@ -2444,7 +2483,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/RF_Receiver.png',
     ],
     [
         'id' => 41,
@@ -2495,7 +2535,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/RF_Transmitter.png',
     ],
     [
         'id' => 42,
@@ -2553,7 +2594,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/rain sensor.png',
     ],
     [
         'id' => 43,
@@ -2608,7 +2650,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Relay_Module.png',
     ],
     [
         'id' => 44,
@@ -2662,7 +2705,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/servo motor.png',
     ],
     [
         'id' => 45,
@@ -2753,7 +2797,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Seven_Segment_1Digit_Display.png',
     ],
     [
         'id' => 46,
@@ -2808,7 +2853,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/smoke sensor.png',
     ],
     [
         'id' => 47,
@@ -2867,7 +2913,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Soil_Moisture_Sensor.png',
     ],
     [
         'id' => 48,
@@ -2916,7 +2963,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/sound detector.png',
     ],
     [
         'id' => 49,
@@ -2972,7 +3020,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Sound_Recorder.png',
     ],
     [
         'id' => 50,
@@ -3033,7 +3082,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/sound sensor.png',
     ],
     [
         'id' => 51,
@@ -3121,7 +3171,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/4 digit 7 segment.png',
     ],
     [
         'id' => 52,
@@ -3172,7 +3223,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Tilt_Sensor.png',
     ],
     [
         'id' => 53,
@@ -3219,7 +3271,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/touch detector.png',
     ],
     [
         'id' => 54,
@@ -3282,7 +3335,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/ultrasonic sensor.png',
     ],
     [
         'id' => 55,
@@ -3345,7 +3399,8 @@ void Flow() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/Water_Flow_Sensor.png',
     ],
     [
         'id' => 56,
@@ -3435,7 +3490,8 @@ void loop() {
 }
 ',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/water level.png',
     ],
     [
         'id' => 57,
@@ -3498,7 +3554,8 @@ void loop() {
   delay(500);
 }',
         'author' => 'Zero2Maker',
-        'date' => '2025-10-15'
+        'date' => '2025-10-15',
+        'image' => 'assets/images/ultrasonic sensor.png',
     ],
 ];
 ?>
