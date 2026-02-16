@@ -7,6 +7,7 @@
     <meta name="description" content="<?php echo SITE_DESCRIPTION; ?>">
     
     <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <script>
     window.dataLayer = window.dataLayer || [];
